@@ -35,6 +35,6 @@ $( "p" ).click(function() {
 });
 $('.hah').on("keypress", function(e) {
     if (e.keyCode == 13) {
-        create();
+        createAccount();
     }
 });
